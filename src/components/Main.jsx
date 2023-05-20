@@ -1,7 +1,9 @@
+import classes from "./Main.module.css"
+
 export function Main() {
   return (
     <>
-      <h3>内容を書きます。</h3>
+      <p className={classes.p}>内容を書きます。</p>
     </>
   )
 }

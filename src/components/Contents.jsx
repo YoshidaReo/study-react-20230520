@@ -1,11 +1,11 @@
 import { InputForm } from "./InputForm";
 import { Main } from "./Main";
-import { Title } from "./Title";
+import classes from "./Contents.module.css"
 
 export function Contents() {
   return (
     <>
-      <Title />
+      <h2 className={classes.h2}>プログラミングはじめました</h2>
       
       <InputForm />
 
